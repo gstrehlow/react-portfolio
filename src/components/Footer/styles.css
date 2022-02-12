@@ -1,5 +1,5 @@
 .footer {
-  height: 50px;
+  height: 75px;
   width: 100%;
   background-color: #393e41;
   position: absolute;
@@ -10,4 +10,8 @@
 .footer-content {
   text-align: center;
   color: white;
+}
+
+.img-link {
+  text-align: center;
 }
