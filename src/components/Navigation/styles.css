@@ -1,0 +1,11 @@
+.navigationTiles {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.selectedNavTile {
+  color: #e2c044;
+  text-decoration: none;
+  font-size: 30px;
+}

@@ -4,10 +4,10 @@
   background-color: #393e41;
   position: absolute;
   bottom: 0;
+  align-items: center;
 }
 
 .footer-content {
   text-align: center;
   color: white;
-  padding-bottom: 1px;
 }

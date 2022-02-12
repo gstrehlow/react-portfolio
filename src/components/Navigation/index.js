@@ -1,8 +1,25 @@
 import { Link } from "react-router-dom";
-export default function NavigationTile({ title }) {
+import "./styles.css";
+export default function NavigationTile({ title, selectedTab, setSelectedTab }) {
   return (
     <div>
-      <Link to={`/${title}`}>{title}</Link>
+      {selectedTab === title ? (
+        <Link
+          className="selectedNavTile"
+          to={`/${title}`}
+          onClickCapture={() => setSelectedTab(title)}
+        >
+          {title}
+        </Link>
+      ) : (
+        <Link
+          className="navigationTiles"
+          to={`/${title}`}
+          onClickCapture={() => setSelectedTab(title)}
+        >
+          {title}
+        </Link>
+      )}
     </div>
   );
 }

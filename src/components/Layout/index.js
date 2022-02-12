@@ -1,10 +1,10 @@
 import Header from "../Header";
 import Footer from "../Footer";
 
-export default function Layout({ children }) {
+export default function Layout({ children, selectedTab, setSelectedTab }) {
   return (
     <div>
-      <Header />
+      <Header setSelectedTab={setSelectedTab} selectedTab={selectedTab} />
       {children}
       <Footer />
     </div>

@@ -1,14 +1,30 @@
 import NavigationTile from "../Navigation";
-import styles from "./styles.css";
+import "./styles.css";
 
-export default function Header() {
+export default function Header({ selectedTab, setSelectedTab }) {
   return (
     <nav>
       <div className="top-nav">
-        <NavigationTile title="About" />
-        <NavigationTile title="Contact" />
-        <NavigationTile title="Portfolio" />
-        <NavigationTile title="Resume" />
+        <NavigationTile
+          title="About"
+          setSelectedTab={setSelectedTab}
+          selectedTab={selectedTab}
+        />
+        <NavigationTile
+          title="Contact"
+          setSelectedTab={setSelectedTab}
+          selectedTab={selectedTab}
+        />
+        <NavigationTile
+          title="Portfolio"
+          setSelectedTab={setSelectedTab}
+          selectedTab={selectedTab}
+        />
+        <NavigationTile
+          title="Resume"
+          setSelectedTab={setSelectedTab}
+          selectedTab={selectedTab}
+        />
       </div>
     </nav>
   );
