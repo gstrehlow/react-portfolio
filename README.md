@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+This portfolio was built with ReactJS and uses React Router to simulate a multi-page application but is built as a single page application. You may view the About, Contact, Portfolio, and Resume pages. Enjoy!
+
+## Deployed Application
+[Grant's React Portfolio](https://gstrehlow.github.io/react-portfolio)
+
 ## Available Scripts
 
 In the project directory, you can run:
