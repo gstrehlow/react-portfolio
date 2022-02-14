@@ -18,6 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
+          <Route element={<About />}></Route>
         </Routes>
       </Layout>
     </div>
