@@ -14,7 +14,15 @@ function App() {
     <div>
       <Layout selectedTab={selectedTab} setSelectedTab={setSelectedTab}>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route
+            path="/"
+            element={
+              <div>
+                <About />
+                <Icon />
+              </div>
+            }
+          />
           <Route
             path="/about"
             element={

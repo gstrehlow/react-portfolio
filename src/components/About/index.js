@@ -17,7 +17,7 @@ export default function About() {
                 <p className="p-about1">Grant Strehlow</p>
                 <p className="p-about">
                   Software Engineer with a history of working on production web
-                  and mobile applications. Deep understanding in Computer
+                  and mobile applications. Strong understanding of Computer
                   Science fundamentals, Javascript, ReactJS, NodeJS, MongoDB,
                   MySQL, CSS, HTML and other technologies.
                 </p>
