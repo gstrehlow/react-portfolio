@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 import Resume from "./components/Resume";
+import Icon from "./components/Icon";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,7 +15,15 @@ function App() {
       <Layout selectedTab={selectedTab} setSelectedTab={setSelectedTab}>
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/about" element={<About />} />
+          <Route
+            path="/about"
+            element={
+              <div>
+                <About />
+                <Icon />
+              </div>
+            }
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Project />} />
           <Route path="/resume" element={<Resume />} />

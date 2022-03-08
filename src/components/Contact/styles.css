@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  width: 600px;
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.error-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  font-size: larger;
+  background-color: #e2c044;
+  border-color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 400px;
+  }
+  textarea {
+    width: 400px;
+  }
+}

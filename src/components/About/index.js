@@ -21,6 +21,9 @@ export default function About() {
                   Science fundamentals, Javascript, ReactJS, NodeJS, MongoDB,
                   MySQL, CSS, HTML and other technologies.
                 </p>
+                <div className="card-body">
+                  <div className="row"></div>
+                </div>
               </div>
             </div>
           </div>
