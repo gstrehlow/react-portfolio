@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import About from "./components/About";
 import Layout from "./components/Layout";
 import Contact from "./components/Contact";
-import Project from "./components/Project";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Icon from "./components/Icon";
 import { Routes, Route } from "react-router-dom";
@@ -33,7 +33,7 @@ function App() {
             }
           />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Project />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
           <Route element={<About />}></Route>
         </Routes>

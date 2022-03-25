@@ -21,7 +21,7 @@ export default function Footer() {
         <a href="mailto:gdstrehlow@outlook.com">
           <img
             src="https://img.icons8.com/color/48/000000/mailbox-closed-flag-down--v1.png"
-            alt="Twitter"
+            alt="Mail"
             className="icon"
           />
         </a>

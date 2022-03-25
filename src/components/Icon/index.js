@@ -62,11 +62,11 @@ export default function Icon() {
         />
       </a>
       <a href="https://www.w3schools.com/git/git_intro.asp?remote=github">
-      <img
-        src="https://img.icons8.com/color/80/000000/git.png"
-        alt="git-icon"
-        className="lang"
-      />
+        <img
+          src="https://img.icons8.com/color/80/000000/git.png"
+          alt="git-icon"
+          className="lang"
+        />
       </a>
     </div>
   );
