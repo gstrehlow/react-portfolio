@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+import "./styles.css";
 
 function Project(props) {
   // This imports the information for the current project sent down.
@@ -28,7 +29,7 @@ function Project(props) {
   }
 
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card style={{ width: "18rem" }} className="main-card">
       <Card.Img
         variant="top"
         src={require(`../../assets/images/${image}`)}

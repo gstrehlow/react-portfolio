@@ -2,3 +2,11 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.card-image {
+  max-width: 300px;
+	max-height: 150px;
+}
+
+.main-card {
+  padding: 15px;
+}
