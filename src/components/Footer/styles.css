@@ -15,3 +15,7 @@
 .img-link {
   text-align: center;
 }
+
+.icon:hover {
+  opacity: 50%;
+}

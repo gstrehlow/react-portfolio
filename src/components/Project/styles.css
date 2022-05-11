@@ -1,12 +1,31 @@
 .card-title {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Secular One', sans-serif;
+    color: white;
+    font-size: 25px;
 }
+
+.card-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
 .card-image {
   max-width: 300px;
 	max-height: 150px;
 }
 
 .main-card {
-  padding: 15px;
+  padding: 10px;
+  border: solid black 3px;
+  background-color: #393e41;
+}
+
+.card-link {
+  text-decoration: none, underline;
+  color: white;
+}
+
+.card-link:hover {
+  opacity: 50%;
 }

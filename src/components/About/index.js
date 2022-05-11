@@ -21,6 +21,11 @@ export default function About() {
                   Science fundamentals, Javascript, ReactJS, NodeJS, MongoDB,
                   MySQL, CSS, HTML and other technologies.
                 </p>
+                <p className="p-about">
+                  I graduated from Kansas University's Coding Bootcamp on March
+                  3rd, 2022 and am actively looking for my first opportunity to
+                  utilize my skills in a full-time role.
+                </p>
                 <div className="card-body">
                   <div className="row"></div>
                 </div>

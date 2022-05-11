@@ -6,8 +6,7 @@ function Portfolio() {
   const projects = [
     {
       name: "Password Generator",
-      description:
-        "Generate a random password based on the criteria you choose.",
+      description: "Generate a random password based on user criteria.",
       image: "password-generator.png",
       technologies: ["HTML/CSS/JS"],
       github: "https://github.com/gstrehlow/Challenge3PasswordGenerator",
@@ -15,8 +14,7 @@ function Portfolio() {
     },
     {
       name: "Animal Showdown",
-      description:
-        "A fun 'Would you rather?' game on which animal you think would win in a brawl.",
+      description: "A fun animal 'This or that?' game.",
       image: "animal-showdown.png",
       technologies: ["React.js/Tailwind CSS/JS/MySQL/Express.js"],
       github: "https://github.com/cerihaf/react-showdown",
@@ -24,8 +22,7 @@ function Portfolio() {
     },
     {
       name: "Crypto Cross",
-      description:
-        "A site where you can compare prices of different cryptocurrencies.",
+      description: "A site where you can compare prices of cryptocurrencies.",
       image: "crypto-cross.png",
       technologies: ["HTML/CSS/JS"],
       github: "https://github.com/gstrehlow/crypto-api",
@@ -62,10 +59,7 @@ function Portfolio() {
 
   return (
     <section>
-      <div className="center">
-        <h1 className="page-header">My Portfolio</h1>
-      </div>
-      <div>
+      <div className="project-cards">
         <ul className="flex-row">
           <li className="padding">
             <Project projects={projects[0]}></Project>
