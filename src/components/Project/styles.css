@@ -13,12 +13,22 @@
 .card-image {
   max-width: 300px;
 	max-height: 150px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.card-image:hover {
+  transform:scale(2);
+  z-index: 2;
+  align-items: center;
+  cursor: pointer;
 }
 
 .main-card {
   padding: 10px;
   border: solid black 3px;
   background-color: #393e41;
+  border-radius: 10px;
 }
 
 .card-link {

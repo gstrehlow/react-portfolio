@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import "./styles.css";
-const resume = require("../../assets/images/grantsresume.pdf");
+const resume = require("../../assets/images/dev-resume.pdf");
 
 function Resume() {
-  const [languages] = useState(["HTML", "CSS", "JavaScript", "Typescript"]);
+  const [languages] = useState([
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Typescript",
+    "React.js",
+    "Mobile Responsiveness",
+  ]);
   const [applications] = useState([
     "Node.js",
     "Express.js",
-    "MySql with Sequelize",
-    "MongoDB with Mongoose",
-    "React.js",
+    "MySQL and NoSQL Databases",
+    "Progressive Web Applications (PWA)",
+    "REST and GraphQL APIs",
   ]);
   return (
     <section className="resume-section">
@@ -19,9 +26,8 @@ function Resume() {
         </a>
       </div>
       <div className="skill-list">
-        <h4>Technical Skills</h4>
         <div>
-          <h5>Languages</h5>
+          <h5>Front End Proficiencies</h5>
           {languages.map((lan) => {
             return (
               <li className="skill" key={lan}>
@@ -31,7 +37,7 @@ function Resume() {
           })}
         </div>
         <div>
-          <h5>Applications</h5>
+          <h5>Back End Proficiencies</h5>
           {applications.map((app) => {
             return (
               <li className="skill" key={app}>

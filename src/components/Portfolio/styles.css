@@ -9,3 +9,13 @@
     justify-content: space-evenly;
     padding: 10px;
 }
+
+.padding {
+    list-style: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-cards {
+        display: block;
+    }
+  }
