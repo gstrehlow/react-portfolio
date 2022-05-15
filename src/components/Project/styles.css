@@ -39,3 +39,9 @@
 .card-link:hover {
   opacity: 50%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .card-image:hover {
+      pointer-events: none;
+  }
+}

@@ -59,6 +59,9 @@ function Portfolio() {
 
   return (
     <section>
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
       <div className="project-cards">
         <ul className="flex-row">
           <li className="padding">
@@ -67,16 +70,14 @@ function Portfolio() {
           <li className="padding">
             <Project projects={projects[1]}></Project>
           </li>
-        </ul>
-        <ul className="flex-row">
+
           <li className="padding">
             <Project projects={projects[2]}></Project>
           </li>
           <li className="padding">
             <Project projects={projects[3]}></Project>
           </li>
-        </ul>
-        <ul className="flex-row">
+
           <li className="padding">
             <Project projects={projects[4]}></Project>
           </li>
