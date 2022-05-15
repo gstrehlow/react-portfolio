@@ -51,9 +51,9 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
   input {
-    width: 400px;
+    width: 350px;
   }
   textarea {
-    width: 400px;
+    width: 350px;
   }
 }

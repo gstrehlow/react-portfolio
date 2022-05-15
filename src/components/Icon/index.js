@@ -68,6 +68,13 @@ export default function Icon() {
           className="lang"
         />
       </a>
+      <a href="https://handlebarsjs.com/">
+        <img
+          src="https://img.icons8.com/office/80/000000/handlebar-mustache.png"
+          alt="handlebars icon"
+          className="lang"
+        />
+      </a>
     </div>
   );
 }

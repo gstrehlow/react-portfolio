@@ -32,6 +32,16 @@ function App() {
               </div>
             }
           />
+          <Route
+            path="/react-portfolio"
+            element={
+              <div>
+                <About />
+                <Icon />
+              </div>
+            }
+          />
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />

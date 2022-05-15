@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 160px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: var(--padding3);
 }
 .skill-list h5 {
   text-decoration: underline;
