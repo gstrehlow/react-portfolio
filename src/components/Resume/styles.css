@@ -24,3 +24,9 @@
   list-style: none;
   font-weight: lighter;
 }
+
+@media only screen and (max-width: 1000px) {
+  .resume-section {
+    padding-top: 100px;
+  }
+}
