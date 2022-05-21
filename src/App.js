@@ -33,7 +33,7 @@ function App() {
             }
           />
           <Route
-            path="/react-portfolio"
+            path="/work-portfolio"
             element={
               <div>
                 <About />
