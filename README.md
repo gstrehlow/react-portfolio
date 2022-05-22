@@ -8,7 +8,7 @@ This portfolio was built with ReactJS and uses React Router to simulate a multi-
 
 ## Deployed Application
 
-[Grant's React Portfolio](https://gstrehlow.github.io/work-portfolio)
+[Grant's React Portfolio](https://gstrehlow.github.io/react-portfolio)
 
 ## Available Scripts
 
