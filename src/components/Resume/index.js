@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-const resume = require("../../assets/images/dev-resume.pdf");
+const resume = require("../../assets/images/grant-update-to-resume.pdf");
 
 function Resume() {
   const [languages] = useState([
